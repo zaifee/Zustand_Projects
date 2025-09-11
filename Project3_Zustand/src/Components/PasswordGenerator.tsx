@@ -31,7 +31,7 @@ const handleGeneratePassword = () => generatePassword();
           <input type="number" id="length" value={length} onChange={(e) =>{
           const val = e.target.value;
           setLength(val === '' ? '' : +val)}}
-          min={4} max={64} className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outlilne-none focus:ring-indigo-500 focus:border-indigo-500 focus:border-indigo-500"  
+          min={4} max={64} className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outlilne-none focus:ring-indigo-500 focus:border-indigo-500"  
           />
         </div>
 
